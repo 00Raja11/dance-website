@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
@@ -9,24 +9,44 @@ import Services from "./pages/Services.jsx";
 function App() {
   return (
     <Router>
-      <header>
-        <nav className="navbar">
+      {/* <header>
+        <nav className="navbar" aria-label="Main Navigation">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink
+                to="/about"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <NavLink
+                to="/services"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Services
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </nav>
-      </header>
+      </header> */}
 
       <main>
         <Routes>
