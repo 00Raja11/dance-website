@@ -4,7 +4,7 @@ A responsive and interactive React website showcasing dance performances, classe
 
 ## Demo
 
-Live site: [https://your-username.github.io/dance-website](https://your-username.github.io/dance-website)
+Live site: [https://00Raja11.github.io/dance-website]
 
 ## Features
 
@@ -25,16 +25,16 @@ Live site: [https://your-username.github.io/dance-website](https://your-username
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/dance-website.git
+git clone https://github.com/00Raja11/dance-website.git
 Install dependencies:
 
 bash
-Copy code
+
 npm install
 Start the development server:
 
 bash
-Copy code
+
 npm start
 The app will run at http://localhost:3000.
 
@@ -44,7 +44,7 @@ To deploy to GitHub Pages:
 Build the project:
 
 bash
-Copy code
+
 npm run build
 Upload the contents of the build folder to your GitHub repository.
 
