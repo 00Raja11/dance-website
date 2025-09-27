@@ -36,7 +36,7 @@ Start the development server:
 bash
 
 npm start
-The app will run at http://localhost:3000.
+The app will run at  http://localhost:5173/
 
 Deployment
 To deploy to GitHub Pages:
